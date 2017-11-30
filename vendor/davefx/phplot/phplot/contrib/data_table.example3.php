@@ -1,7 +1,7 @@
 <?php
 # $Id: data_table.example3.php 999 2011-08-05 19:00:48Z lbayuk $
 # phplot / contrib / data_table example 3:  Pie chart with data table
-require_once '../phplot.php';
+require_once 'phplot.php';
 require_once 'data_table.php';
 
 // Note column 0, labels, are not used by PHPlot itself, but are
@@ -17,9 +17,9 @@ $data = array(
 // Width and height are auto-calculated, and position defaults to 0,0.
 $settings = array(
     'headers' => array('Metal', 'Amount'),
-    'data' => $data
+    'data' => $data,
 );
-//print_r($data);
+
 $plot = new PHPlot(600, 400);
 $plot->SetTitle('Pie Chart with Legend and Data Table');
 $plot->SetDataValues($data);

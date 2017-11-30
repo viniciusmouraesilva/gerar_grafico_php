@@ -64,7 +64,9 @@
 	
 	//print_r($prod);
 	
-	require_once 'phplot/phplot.php';
+	require_once 'vendor/autoload.php';
+
+	require_once 'vendor/davefx/phplot/phplot/phplot.php';
 	//require_once 'phplot/contrib/data_table.php';
 	
 	$grafico = new PHPlot(800,600);

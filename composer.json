@@ -1,0 +1,14 @@
+{
+    "name": "vinicius/cadastro_produtos_graficos",
+    "description": "grafico produtos",
+    "type": "library",
+    "require": {
+        "davefx/phplot": "^6.2"
+    },
+    "authors": [
+        {
+            "name": "Vinicius Moura",
+            "email": "viniciusmouraesilva2204@outlook.com"
+        }
+    ]
+}
